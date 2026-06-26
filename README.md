@@ -6,7 +6,7 @@ Predicting which employees are likely to leave a company, using the IBM HR Analy
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -67,7 +67,6 @@ Every company loses employees — the goal isn't to stop attrition entirely, it'
 - **Tenure:** Attrition is highest in the first 2 years (28.9%) and drops steadily to 8.1% for employees with 10+ years — roughly a **3.5x** difference.
 - **Strongest single predictor (from the model):** Working overtime — a bigger driver than salary, department, or tenure.
 
-*(See [`analysis.ipynb`](./analysis.ipynb) for the full breakdown with code and commentary.)*
 
 ---
 
@@ -121,7 +120,6 @@ Three models were trained with class-imbalance handling (`class_weight='balanced
 1. **Treat sustained overtime as an early-warning sign.** Flag employees with consistent overtime for a workload review or manager check-in before burnout drives them to resign.
 2. **Run targeted, not blanket, retention conversations.** Prioritize the ~80 employees reporting poor work-life balance and employees in the Sales Representative / Laboratory Technician roles — these are small, well-defined groups with outsized risk, not a problem requiring a company-wide policy change.
 
-*(Full one-page, non-technical write-up: [`summary.docx`](./summary.docx))*
 
 ---
 
@@ -143,7 +141,6 @@ Three models were trained with class-imbalance handling (`class_weight='balanced
 EmployeeAttrition_YourName/
 ├── analysis.ipynb          # Full notebook — all 7 tasks, code + commentary
 ├── HR_Attrition.csv        # Dataset used
-├── summary.docx            # 1-page non-technical summary for HR
 ├── charts/
 │   ├── chart1_dept_role_attrition.png
 │   ├── chart2_income_boxplot.png
